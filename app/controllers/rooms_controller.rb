@@ -1,4 +1,9 @@
 class RoomsController < ApplicationController
+
+  def idnex
+    
+  end
+
   def new
     @room = Room.new
   end
